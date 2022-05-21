@@ -210,6 +210,9 @@ img{
     bottom: 40px;
     width: 295px;
 }
+.about_text{
+    text-align: justify;
+}
 /* Buttons */
 .button{
     display: inline-block;
