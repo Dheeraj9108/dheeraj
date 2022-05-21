@@ -207,7 +207,7 @@ img{
 .home_img{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 40px;
     width: 295px;
 }
 /* Buttons */
@@ -234,7 +234,8 @@ img{
     justify-self: center;
 }
 .about_img img{
-    width: 200px;
+    /* width: 200px; */
+    width: 100%;
     border-radius: 0.5rem;
 }
 /* Skills */
@@ -412,6 +413,7 @@ img{
     }
     .about_img img{
         width: 300px;
+      
     }
     .work_container{
         grid-template-columns: repeat(3,1fr);
@@ -449,6 +451,7 @@ img{
    }
    .about_img img{
        width: 340px;
+       
    }
    .home_social_icon{
        color: #fff;
